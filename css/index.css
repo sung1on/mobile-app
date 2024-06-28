@@ -115,6 +115,19 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
+    opacity: 0;
+    animation : fadeUp 1s forwards;
+}
+@keyframes fadeUp{
+  from {
+    opacity: 0;
+  transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateY(0);
+  }
 }
 
 .item02{
@@ -124,6 +137,7 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
+    opacity: 0;
 }
 
 .item01 img, .item02 img{
