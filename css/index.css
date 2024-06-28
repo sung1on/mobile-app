@@ -115,9 +115,12 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
-    animation : fadeUp 1s forwards;
+    opacity : 0;
+    animation-name: fadeUpAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;   
 }
-@keyframes fadeUp{
+@keyframes fadeUpAnime{
   from {
     opacity: 0;
   transform: translateY(100px);
@@ -128,6 +131,8 @@ a:hover{
   transform: translateY(0);
   }
 }
+
+
 
 .item02{
     position: relative;
