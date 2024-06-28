@@ -116,11 +116,11 @@ a:hover{
     line-height: 1em;
     overflow: hidden;
     opacity : 0;
-    animation-name: fadeUpAnime;
+    animation: fadeUp;
     animation-duration:1s;
     animation-fill-mode:forwards;   
 }
-@keyframes fadeUpAnime{
+@keyframes fadeUp{
   from {
     opacity: 0;
   transform: translateY(100px);
